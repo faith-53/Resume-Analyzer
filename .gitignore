@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Testing/Type checking caches
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Streamlit
+.streamlit/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data/cache
+.cache/
+*.sqlite3
+
+# Local files
+*.local
